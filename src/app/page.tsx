@@ -1,9 +1,12 @@
-import { Button } from "@/components/ui/button"
- 
-export default function Home() {
+import { FileUpload } from "./components/file-upload"
+
+export default function Page() {
   return (
-    <div>
-      <Button>Click me</Button>
+    <div className="bg-background">
+      <main className="container">
+        <FileUpload />
+      </main>
     </div>
   )
 }
+
