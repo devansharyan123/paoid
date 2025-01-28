@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
  
 // These styles apply to every route in the application
 import './globals.css'
+import { Navbar } from './components/navbar'
+import { Breadcrumb } from './components/breadcrumb'
  
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      <Navbar />
+      <Breadcrumb />
+      {children}</body>
     </html>
   )
 }
