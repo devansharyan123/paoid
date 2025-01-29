@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { ConfigurationForm } from "../../components/configuration-form"
-import { AnalysisProgress } from "../../components/analysis-progress"
-import { CompletionView } from "../../components/completion-view"
+import { ConfigurationForm } from "../../pages/configuration-form"
+import { AnalysisProgress } from "../../pages/analysis-progress"
+import { CompletionView } from "../../pages/completion-view"
 import type { AnalysisConfig } from "../../types/analysis.ts"
 import { INITIAL_CONFIG } from "../../constants/analysis"
 

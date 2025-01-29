@@ -1,4 +1,4 @@
-import { FileUpload } from "../components/file-upload"
+import { FileUpload } from "../pages/file-upload"
 
 export default function Page() {
   return (

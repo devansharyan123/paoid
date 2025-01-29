@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Card, CardContent } from "@/components/ui/card";
-import type { AnalysisConfig } from "../types/analysis.ts";
+import type { AnalysisConfig } from "../types/analysis.js";
 
 interface ConfigurationFormProps {
   config: AnalysisConfig;

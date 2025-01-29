@@ -12,7 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import type { AnalysisConfig } from "../types/analysis.ts";
+import type { AnalysisConfig } from "../types/analysis.js";
 
 interface AnalysisProgressProps {
   progress: number;

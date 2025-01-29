@@ -8,7 +8,8 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
 
 const navigationLinks = [
-  { href: "/", label: "Home" },
+  { href: "/" , label : "OSIntegrityCMManager"},
+  { href: "/home", label: "Home" },
   { href: "/analysis", label: "Analysis" },
   { href: "/report", label: "Reports" },
   { href: "/configurations", label: "Configurations" },

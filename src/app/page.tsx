@@ -1,4 +1,7 @@
-import { FileUpload } from "./components/file-upload"
+import { FileUpload } from "./pages/file-upload"
+import { AnalysisProgress } from "./pages/analysis-progress"
+import { CompletionView } from "./pages/completion-view"
+import { ConfigurationForm } from "./pages/configuration-form"
 
 export default function Page() {
   return (

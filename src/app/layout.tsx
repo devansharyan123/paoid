@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
  
 // These styles apply to every route in the application
 import './globals.css'
-import { Navbar } from './components/navbar'
-import { Breadcrumb } from './components/breadcrumb'
+import { Navbar } from './pages/navbar'
+import { Breadcrumb } from './pages/breadcrumb'
  
 export const metadata: Metadata = {
   title: 'Create Next App',
